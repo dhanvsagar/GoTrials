@@ -56,4 +56,7 @@ func main() {
 	b1.setISBN(123456789)
 	fmt.Println(b1.getBookDetails())
 
+	b3 := Book{}
+	b3.bookName = "NewBook"
+	fmt.Println(b3)
 }
